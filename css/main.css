@@ -6707,10 +6707,6 @@ input:focus:-ms-input-placeholder,textarea:focus:-ms-input-placeholder {
 	transition: all linear .3s;
 }
 
-.post-text-block p {
-	margin-top: 1.75rem;
-	margin-bottom: 0;
-}
 
 .post-text-block .content-sub-title {
 	margin: 0;

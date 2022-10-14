@@ -13121,7 +13121,7 @@ a.full-width-icon:hover .social-text {
 
 .visual-inner {
 	/* background-color: red !important; */
-	background-image: url('../img/bg7.webp');
+	background-image: url('../img/homepage\ BG\ 1920x1080.webp');
 }
 
 
@@ -13130,3 +13130,217 @@ a.full-width-icon:hover .social-text {
 	text-align:justify;
   text-justify: inter-word;
 } */
+
+
+.visual-inne {
+background-image: url('../img/Contact\ Page\ Slider\ –\ 1920x400.webp');
+padding: 6.25rem 0;
+}
+
+
+.visual-no-bg .visual-inne {
+	padding-top: 5.625rem;
+	padding-bottom: 2.8125rem;
+}
+
+.visual-inne {
+	padding: 5rem 0;
+}
+
+
+.visual-no-bg .visual-inne {
+	height: auto;
+}
+
+.visual-sub .visual-inne {
+	height: 60.71rem;
+}
+
+.visual-inne {
+	padding: 3.75rem 0;
+	height: 34.38rem;
+	max-height: 34.38rem;
+}
+
+.has-overlay,.visual-inne,.parallax,.count-block,.overlay {
+	position: relative;
+	z-index: 999;
+}
+
+.has-overlay:before,.visual-inne:before,.parallax:before,.count-block:before,.overlay:before {
+	left: 0;
+	right: 0;
+	top: 0;
+	bottom: 0;
+	
+	content: '';
+	position: absolute;
+}
+
+
+
+
+.visual-no-bg .visual-inne {
+	height: auto;
+	min-height: .07143rem;
+}
+
+.visual-no-bg .visual-inne .centered {
+	display: block;
+}
+
+
+
+.visual-inne:before {
+	z-index: -1;
+}
+
+.visual-inne .centered {
+	max-width: none;
+	width: 100%;
+}
+
+.visual-sub .visual-inne {
+	height: 100vh;
+}
+
+
+.visual-inne {
+	white-space: nowrap;
+	text-align: center;
+	height: 100vh;
+	padding: 3.125rem 0;
+	min-height: 26.25rem;
+	max-height: 26.25rem;
+	position: relative;
+	z-index: 1;
+}
+
+.visual-inne:after {
+	content: '';
+	display: inline-block;
+	vertical-align: middle;
+	width: 0;
+	min-height: 100%;
+}
+
+.visual-inne > * {
+	white-space: normal;
+	display: inline-block;
+	vertical-align: middle;
+	max-width: 99%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* discover  */
+
+
+.visual-inn{
+	background-image: url('../img/Discover\ Page\ Slider\ –\ 1920x633.webp');
+	padding: 6.25rem 0;
+	}
+	
+	
+	.visual-no-bg .visual-inn {
+		padding-top: 5.625rem;
+		padding-bottom: 2.8125rem;
+	}
+	
+	.visual-inn {
+		padding: 5rem 0;
+	}
+	
+	
+	.visual-no-bg .visual-inn {
+		height: auto;
+	}
+	
+	.visual-sub .visual-inn {
+		height: 60.71rem;
+	}
+	
+	.visual-inn {
+		padding: 3.75rem 0;
+		height: 34.38rem;
+		max-height: 34.38rem;
+	}
+	
+	
+	
+	.has-overlay:before,.visual-inn:before,.parallax:before,.count-block:before,.overlay:before {
+		left: 0;
+		right: 0;
+		top: 0;
+		bottom: 0;
+		
+		content: '';
+		position: absolute;
+	}
+	
+	
+
+	
+	.visual-no-bg .visual-inn {
+		height: auto;
+		min-height: .07143rem;
+	}
+	
+	.visual-no-bg .visual-inn .centered {
+		display: block;
+	}
+	
+	
+	
+	.visual-inn:before {
+		z-index: -1;
+	}
+	
+	.visual-inn .centered {
+		max-width: none;
+		width: 100%;
+	}
+	
+	.visual-sub .visual-inn {
+		height: 100vh;
+	}
+	
+	
+	.visual-inn {
+		white-space: nowrap;
+		text-align: center;
+		height: 100vh;
+		padding: 3.125rem 0;
+		min-height: 26.25rem;
+		max-height: 26.25rem;
+		position: relative;
+		z-index: 1;
+	}
+	
+	.visual-inn:after {
+		content: '';
+		display: inline-block;
+		vertical-align: middle;
+		width: 0;
+		min-height: 100%;
+	}
+	
+	.visual-inn > * {
+		white-space: normal;
+		display: inline-block;
+		vertical-align: middle;
+		max-width: 99%;
+	}

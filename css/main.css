@@ -12023,7 +12023,7 @@ a.full-width-icon:hover .social-text {
 
 	.content-block {
 		/* padding-top: 7.5rem; */
-		/* padding-bottom: 7.5rem; */
+		padding-bottom: 0.5rem;
 	}
 
 	.work-block {

@@ -13121,7 +13121,7 @@ a.full-width-icon:hover .social-text {
 
 .visual-inner {
 	/* background-color: red !important; */
-	background-image: url('../img/homepage\ BG\ 1920x1080.webp');
+	background-image: url('../img/Inner\ pages\ banner/abouttext.webp');
 }
 
 
@@ -13231,26 +13231,11 @@ padding: 6.25rem 0;
 	max-width: 99%;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /* discover  */
 
 
 .visual-inn{
-	background-image: url('../img/Discover\ Page\ Slider\ –\ 1920x633.webp');
+	background-image: url('../img/Inner\ pages\ banner/discover2.webp');
 	padding: 6.25rem 0;
 	}
 	

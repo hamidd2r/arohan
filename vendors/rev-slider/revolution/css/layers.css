@@ -17,6 +17,11 @@ website:   	http://www.themepunch.com
     box-sizing: border-box;
 }
 
+#nav-section {
+    background-color: white;
+    
+}
+
 .tp-caption.Twitter-Content a,.tp-caption.Twitter-Content a:visited
 {
 	color:#0084B4!important;

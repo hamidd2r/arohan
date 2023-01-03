@@ -1020,7 +1020,8 @@ h3 {
 }
 
 .main-header.header-white.transparent .navbar .navbar-brand img:last-child {
-	display: block;
+	/* display: block; */
+	margin-top: 20px;
 }
 
 /******* navigation styles *******/
@@ -3418,6 +3419,7 @@ em.state-invalid {
 .main-header .navbar {
 	padding: 40px;
 	min-height: 6.063rem;
+	margin-top: -30px;
 }
 
 .main-header .navbar .navbar-brand {
@@ -12334,6 +12336,7 @@ a.full-width-icon:hover .social-text {
 	.main-header .navbar .navbar-nav li .dropdown-menu .dropdown-right .icn-right {
 		top: .7rem;
 		right: 0;
+		
 	}
 
 	.main-header .navbar .navbar-nav li .dropdown-menu .l-block {
@@ -12399,6 +12402,7 @@ a.full-width-icon:hover .social-text {
 		margin-top: 0;
 		outline: none;
 		cursor: pointer;
+		padding-top: 40px;
 	}
 
 	.main-header .navbar-toggler .navbar-toggler-icon {

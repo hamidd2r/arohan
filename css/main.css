@@ -1020,7 +1020,7 @@ h3 {
 }
 
 .main-header.header-white.transparent .navbar .navbar-brand img:last-child {
-	/* display: block; */
+	display: block;
 	margin-top: 20px;
 }
 

@@ -9974,7 +9974,7 @@ a.full-width-icon:hover .social-text {
 }
 
 .footer .footer-bottom {
-	padding: 1.875rem 0;
+	padding: 1.275rem 0;
 	background: #212121;
 }
 
@@ -13329,3 +13329,22 @@ padding: 6.25rem 0;
 		vertical-align: middle;
 		max-width: 99%;
 	}
+
+	.block-heading {
+		transform: translateX(-100vw);
+		clear: both;
+		animation: mailBtnAnimation 7s forwards;
+	}
+
+	@keyframes mailBtnAnimation {
+		to {
+		  transform: translateX(100vw);
+		}
+	  }
+
+
+.slider-main-title {
+	
+	margin-top: 110px !important;
+}
+	  

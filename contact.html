@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -31,6 +32,7 @@
     <!-- Custom CSS -->
     <link media="all" rel="stylesheet" href="css/custom.css">
 </head>
+
 <body>
     <!-- main wrapper -->
     <div id="wrapper">
@@ -96,46 +98,49 @@
                     <section class="content-block pb-0">
                         <div class="container">
                             <div class="contact-container">
-                                <h6 class="content-title contact-title pt-5">To begin your journey of excellence, contact us. </h6>
+                                <h6 class="content-title contact-title pt-5">To begin your journey of excellence,
+                                    contact us. </h6>
                                 <div class="row">
                                     <div class="col-lg-6">
                                         <!-- contact form -->
-                                        
-                                        <form  class="waituk_contact-form" onsubmit="sendemail();">
+
+                                        <form class="waituk_contact-form" method="post" action="contact.php">
                                             <div class="row">
                                                 <div class="col-md-6">
                                                     <div class="form-group">
-                                                        <input type="text" placeholder="FIRST NAME *" id="con_fname"
-                                                            name="con_fname" class="form-control">
+                                                        <input type="text" placeholder="FIRST NAME" name="first_name"
+                                                            class="form-control">
                                                     </div>
                                                 </div>
                                                 <div class="col-md-6">
                                                     <div class="form-group">
-                                                        <input type="text" placeholder="LAST NAME *" id="con_lname"
-                                                            name="con_lname" class="form-control">
+                                                        <input type="text" placeholder="LAST NAME *" name="last_name"
+                                                            class="form-control">
                                                     </div>
                                                 </div>
                                             </div>
                                             <div class="row">
                                                 <div class="col-md-6">
                                                     <div class="form-group">
-                                                        <input type="tel" placeholder="PHONE NUMBER" id="con_phone"
-                                                            name="con_phone" class="form-control">
+                                                        <input type="text" onkeypress="return isNumberKey(this, event);"
+                                                            placeholder="PHONE NUMBER" name="contact"
+                                                            class="form-control">
                                                     </div>
                                                 </div>
                                                 <div class="col-md-6">
                                                     <div class="form-group">
-                                                        <input type="email" placeholder="EMAIL ADDRESS *" id="con_email"
-                                                            name="con_email" class="form-control">
+                                                        <input type="email" placeholder="EMAIL ADDRESS *" name="email"
+                                                            class="form-control">
                                                     </div>
                                                 </div>
                                             </div>
                                             <div class="form-group">
-                                                <textarea class="form-control" placeholder="MESSAGE *" id="con_message"
-                                                    name="con_message"></textarea>
+                                                <textarea class="form-control" placeholder="MESSAGE *"
+                                                    name="message"></textarea>
                                             </div>
                                             <div class="btn-container">
-                                                <button id="btn" class="btn btn-primary btn-arrow">SEND
+                                                <button type="submit" name="submit"
+                                                    class="btn btn-primary btn-arrow">SEND
                                                     MESSAGE</button>
                                                 <p id="error_message"> </p>
                                             </div>
@@ -147,21 +152,19 @@
                                             <div class="text">
                                                 <address>Arohan Office
 
-                                                  
+
                                                     <br>707 Ive Corner
-                                                    <br>  - gurgaun</address>
+                                                    <br> - gurgaun
+                                                </address>
                                             </div>
                                         </div>
                                         <div class="info-slot">
                                             <div class="icon"><span class="custom-icon-headset"></span></div>
                                             <div class="text">
                                                 <ul class="content-list contact-list">
-                                                    <li>HELPLINE   </span> <a
-                                                            href="tel:"> +91 78777777</a></li>
-                                                    <li>ENQUIRIE</span> <a
-                                                            href="tel:">  +91 78777777</a></li>
-                                                    <li>FAX   </span> <a
-                                                            href="">  +91 78777777</a></li>
+                                                    <li>HELPLINE </span> <a href="tel:"> +91 78777777</a></li>
+                                                    <li>ENQUIRIE</span> <a href="tel:"> +91 78777777</a></li>
+                                                    <li>FAX </span> <a href=""> +91 78777777</a></li>
                                                 </ul>
                                             </div>
                                         </div>
@@ -170,7 +173,7 @@
                             </div>
                         </div>
                     </section>
-                   
+
                 </div>
                 <!--/main content wrapper -->
             </main>
@@ -233,7 +236,7 @@
             </div>
         </footer>
 
-       
+
         <!--/footer of the page -->
     </div>
     <!-- search form wrapper -->
@@ -246,7 +249,7 @@
     </div>
 
     <a href="#" class="section-scroll" id="scroll-to-top"><i class="fa fa-angle-up"></i></a>
-   <!-- form -->
+    <!-- form -->
     <script>
         function submitForm() {
             let form = document.getElementById("form__submit");
@@ -307,35 +310,52 @@
 
     <script src="https://smtpjs.com/v3/smtp.js"></script>
 
-    <script>
+    <!-- <script>
 
         var btn = document.getElementById('btn');
-        btn.addEventListener('click' , function(e){
+        btn.addEventListener('click', function (e) {
             e.preventDefault()
             var fname = document.getElementById('con_fname').value;
             var lname = document.getElementById('con_lname').value;
             var phone = document.getElementById('con_phone').value;
             var email = document.getElementById('con_email').value;
             var message = document.getElementById('con_message').value;
-            var body  = 'name :' +fname + '<br/> lname :' + lname + '<br/> phone' + phone + '<br/> email' + email +  '<br/> message' + message;
+            var body = 'name :' + fname + '<br/> lname :' + lname + '<br/> phone' + phone + '<br/> email' + email + '<br/> message' + message;
             Email.send({
-    Host : "smtp.gmail.com",
-    Username : "ali.@gmail.com",
-    Password : "lcepitjrxzvosmel",
-    To : 'ali.999@gmail.com',
-    From : email,
-    Subject : "This is the subject",
-    Body : body
-}).then(
-  message => alert(message)
-);
+                Host: "smtp.gmail.com",
+                Username: "ali.@gmail.com",
+                Password: "lcepitjrxzvosmel",
+                To: 'ali.999@gmail.com',
+                From: email,
+                Subject: "This is the subject",
+                Body: body
+            }).then(
+                message => alert(message)
+            );
 
         })
-      
 
+
+    </script> -->
+
+    <script type="text/javascript">
+        function isNumberKey(txt, evt) {
+            var charCode = (evt.which) ? evt.which : evt.keyCode;
+            if (charCode == 46) {
+                //Check if the text already contains the . character
+                if (txt.value.indexOf('.') === -1) {
+                    return true;
+                } else {
+                    return false;
+                }
+            } else {
+                if (charCode > 31 &&
+                    (charCode < 48 || charCode > 57))
+                    return false;
+            }
+            return true;
+        }
     </script>
-
-
 
 </body>
 

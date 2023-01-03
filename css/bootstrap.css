@@ -696,6 +696,7 @@ pre {
       margin-left: -15px; } }
   @media (min-width: 1200px) {
     .row {
+      margin-top: 20px;
       margin-right: -15px;
       margin-left: -15px; } }
 
@@ -2082,8 +2083,8 @@ fieldset[disabled] a.btn {
   border-color: #0275d8; }
   .btn-primary:hover {
     color: #fff;
-    background-color: #025aa5;
-    border-color: #01549b; }
+    background-color: #174361;
+    border-color: #174361; }
   .btn-primary:focus, .btn-primary.focus {
     -webkit-box-shadow: 0 0 0 2px rgba(2, 117, 216, 0.5);
             box-shadow: 0 0 0 2px rgba(2, 117, 216, 0.5); }

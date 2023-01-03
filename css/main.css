@@ -1021,7 +1021,7 @@ h3 {
 
 .main-header.header-white.transparent .navbar .navbar-brand img:last-child {
 	display: block;
-	margin-top: 20px;
+	margin-top: 20px;                                                                                
 }
 
 /******* navigation styles *******/
@@ -9978,14 +9978,14 @@ a.full-width-icon:hover .social-text {
 }
 
 .footer .footer-bottom {
-	padding: 2.275rem 0;
+	/* padding: 2.275rem 0; */
 	background: #212121;
 }
 
 .footer .footer-bottom p {
 	margin: 0;
 	color: #7d7d7d;
-	margin-top: 22px;
+	
 }
 
 .footer .widget-block h4 {
@@ -12111,7 +12111,7 @@ a.full-width-icon:hover .social-text {
 	}
 
 	.footer .footer-main {
-		padding-bottom: 5rem;
+		padding-bottom: 3rem;
 	}
 
 	.footer .instagram-widget ul li {
@@ -13355,6 +13355,6 @@ padding: 6.25rem 0;
 
 .slider-main-title {
 	
-	margin-top: 230px !important;
+	margin-top: 240px !important;
 }
 	  

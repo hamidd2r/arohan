@@ -408,6 +408,7 @@ textarea {
 
 fieldset {
   min-width: 0;
+  padding-top: 3.5em;
   
   margin: 0;
   border: 0; }

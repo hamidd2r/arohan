@@ -11346,7 +11346,8 @@ a.full-width-icon:hover .social-text {
 	}
 
 	.main-header.header-white.transparent .navbar .navbar-nav > li > a {
-		color: #fff;
+		color: #55565b;
+		
 	}
 
 	.main-header.header-white.transparent .navbar-pos-search a.x-search-trigger,.main-header.header-white.transparent .navbar-pos-search .navbar-link {
@@ -12020,9 +12021,8 @@ a.full-width-icon:hover .social-text {
 	.visual-bottom-block p {
 		font-size: .875rem;
 	}
-
 	.content-block {
-		/* padding-top: 7.5rem; */
+		/* padding-top: 3.5rem; */
 		padding-bottom: 0.5rem;
 	}
 
@@ -13338,13 +13338,13 @@ padding: 6.25rem 0;
 
 	@keyframes mailBtnAnimation {
 		to {
-		  transform: translateX(100vw);
+		  transform: translateX(40vw);
 		}
 	  }
 
 
 .slider-main-title {
 	
-	margin-top: 110px !important;
+	margin-top: 200px !important;
 }
 	  

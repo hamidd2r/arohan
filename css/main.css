@@ -9906,6 +9906,7 @@ a.full-width-icon:hover .social-text {
 	position: relative;
 	color: #7d7d7d;
 	z-index: 2;
+	margin-top: 40px;
 }
 
 .footer .footer-main p {
@@ -9974,7 +9975,7 @@ a.full-width-icon:hover .social-text {
 }
 
 .footer .footer-bottom {
-	padding: 1.275rem 0;
+	padding: 2.275rem 0;
 	background: #212121;
 }
 

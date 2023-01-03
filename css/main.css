@@ -13338,7 +13338,7 @@ padding: 6.25rem 0;
 
 	@keyframes mailBtnAnimation {
 		to {
-		  transform: translateX(40vw);
+		  transform: translateX(35vw);
 		}
 	  }
 

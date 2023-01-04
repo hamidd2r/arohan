@@ -3417,7 +3417,7 @@ em.state-invalid {
 }
 
 .main-header .navbar {
-	padding: 40px;
+	padding: 0px;
 	min-height: 6.063rem;
 	margin-top: -30px;
 }
@@ -11532,7 +11532,7 @@ a.full-width-icon:hover .social-text {
 	}
 
 	.no-top-header ~ .no-banner {
-		padding-top: 6rem;
+		padding-top: 0rem;
 	}
 
 	.ico-box {

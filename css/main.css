@@ -837,11 +837,11 @@ body {
 img {
 	max-width: 100%;
 	height: auto;
-	margin-top: -50px;
+	margin-top: -21px;
 }
 
 a {
-	color: #5645ff;
+	color: #554e4b;
 	text-decoration: none;
 	outline: none;
 	-webkit-transition: all linear .2s;
@@ -5016,7 +5016,7 @@ em.state-invalid {
 }
 
 main.no-banner {
-	padding-top: 3.8rem;
+	
 	-webkit-transition: padding linear .3s;
 	-o-transition: padding linear .3s;
 	transition: padding linear .3s;
@@ -11528,7 +11528,7 @@ a.full-width-icon:hover .social-text {
 	}
 
 	main.no-banner {
-		padding-top: 8.5rem;
+		/* padding-top: 8.5rem; */
 	}
 
 	.no-top-header ~ .no-banner {
@@ -13358,3 +13358,14 @@ padding: 6.25rem 0;
 	margin-top: 240px !important;
 }
 	  
+
+	  .nav {
+		padding: 30px;
+	  }
+
+	  .nav .dropdown {
+		color: black !important;
+		padding: 20px;
+	  }
+
+	

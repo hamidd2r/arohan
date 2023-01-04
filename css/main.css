@@ -9976,12 +9976,13 @@ a.full-width-icon:hover .social-text {
 .footer .footer-bottom {
 	padding: 1.275rem 0;
 	background: #212121;
+
 }
 
 .footer .footer-bottom p {
 	margin: 0;
 	color: #7d7d7d;
-	margin-top: 22px;
+	/* margin-bottom: 22px; */
 }
 
 .footer .widget-block h4 {
@@ -13133,11 +13134,11 @@ a.full-width-icon:hover .social-text {
 
 
 .visual-inne {
-background-image: url('../img/Contact\ Page\ Slider\ â€“\ 1920x400.webp');
+background-image: url('../img/Contact\ Page\ Slider\ –\ 1920x400.webp');
 padding: 6.25rem 0;
 }
 .visual-inner {
-background-image: url('../img/Inner pages banner/Approach 1 with text.webp');
+background-image: url('../img/Inner\ pages\ banner/abouttext.webp');
 padding: 6.25rem 0;
 }
 
@@ -13349,6 +13350,6 @@ padding: 6.25rem 0;
 
 .slider-main-title {
 	
-	margin-top: 200px !important;
+	margin-top: 240px !important;
 }
 	  

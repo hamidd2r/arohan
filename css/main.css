@@ -837,11 +837,10 @@ body {
 img {
 	max-width: 100%;
 	height: auto;
-	margin-top: -21px;
 }
 
 a {
-	color: #554e4b;
+	color: #5645ff;
 	text-decoration: none;
 	outline: none;
 	-webkit-transition: all linear .2s;
@@ -1021,7 +1020,6 @@ h3 {
 
 .main-header.header-white.transparent .navbar .navbar-brand img:last-child {
 	display: block;
-	margin-top: 20px;                                                                                
 }
 
 /******* navigation styles *******/
@@ -1645,7 +1643,7 @@ body {
 }
 
 .mega-menus .i-list.i-list-bullet > li:nth-child(1n+2):before {
-	content: '●';
+	content: 'â—';
 	color: #585858;
 	font-size: .8em;
 	vertical-align: .1em;
@@ -3417,9 +3415,8 @@ em.state-invalid {
 }
 
 .main-header .navbar {
-	padding: 40px;
+	padding: 0px;
 	min-height: 6.063rem;
-	margin-top: -30px;
 }
 
 .main-header .navbar .navbar-brand {
@@ -5016,7 +5013,7 @@ em.state-invalid {
 }
 
 main.no-banner {
-	
+	padding-top: 3.8rem;
 	-webkit-transition: padding linear .3s;
 	-o-transition: padding linear .3s;
 	transition: padding linear .3s;
@@ -9909,7 +9906,6 @@ a.full-width-icon:hover .social-text {
 	position: relative;
 	color: #7d7d7d;
 	z-index: 2;
-	margin-top: 40px;
 }
 
 .footer .footer-main p {
@@ -9978,14 +9974,14 @@ a.full-width-icon:hover .social-text {
 }
 
 .footer .footer-bottom {
-	/* padding: 2.275rem 0; */
+	padding: 1.275rem 0;
 	background: #212121;
 }
 
 .footer .footer-bottom p {
 	margin: 0;
 	color: #7d7d7d;
-	
+	margin-top: 22px;
 }
 
 .footer .widget-block h4 {
@@ -11528,7 +11524,7 @@ a.full-width-icon:hover .social-text {
 	}
 
 	main.no-banner {
-		/* padding-top: 8.5rem; */
+		padding-top: 8.5rem;
 	}
 
 	.no-top-header ~ .no-banner {
@@ -12111,7 +12107,7 @@ a.full-width-icon:hover .social-text {
 	}
 
 	.footer .footer-main {
-		padding-bottom: 3rem;
+		padding-bottom: 5rem;
 	}
 
 	.footer .instagram-widget ul li {
@@ -12336,7 +12332,6 @@ a.full-width-icon:hover .social-text {
 	.main-header .navbar .navbar-nav li .dropdown-menu .dropdown-right .icn-right {
 		top: .7rem;
 		right: 0;
-		
 	}
 
 	.main-header .navbar .navbar-nav li .dropdown-menu .l-block {
@@ -12402,7 +12397,6 @@ a.full-width-icon:hover .social-text {
 		margin-top: 0;
 		outline: none;
 		cursor: pointer;
-		padding-top: 40px;
 	}
 
 	.main-header .navbar-toggler .navbar-toggler-icon {
@@ -13139,11 +13133,11 @@ a.full-width-icon:hover .social-text {
 
 
 .visual-inne {
-background-image: url('../img/Contact\ Page\ Slider\ –\ 1920x400.webp');
+background-image: url('../img/Contact\ Page\ Slider\ â€“\ 1920x400.webp');
 padding: 6.25rem 0;
 }
 .visual-inner {
-background-image: url('../img/Inner\ pages\ banner/abouttext.webp');
+background-image: url('../img/Inner pages banner/Approach 1 with text.webp');
 padding: 6.25rem 0;
 }
 
@@ -13355,17 +13349,6 @@ padding: 6.25rem 0;
 
 .slider-main-title {
 	
-	margin-top: 240px !important;
+	margin-top: 200px !important;
 }
 	  
-
-	  .nav {
-		padding: 30px;
-	  }
-
-	  .nav .dropdown {
-		color: black !important;
-		padding: 20px;
-	  }
-
-	

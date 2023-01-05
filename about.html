@@ -375,13 +375,13 @@
             <div class="content-block footer-main text-center">
                 <div class="container">
                     <div class="waituk_newsletter-form">
-                        <form action="#" id="signup" method="post">
+                        <form action="form.php" id="signup" method="post">
                             <fieldset class="clearfix">
                                 <div class="form-group input-holder">
-                                    <input type="email" name="subscriber_email" id="subscriber_email"
+                                    <input type="email" required name="email" id="subscriber_email"
                                         class="form-control" placeholder="Email Address">
                                 </div>
-                                <input type="submit" class="btn btn-trans-dark-gray" value="Subscribe">
+                                <input type="submit" name="submit" class="btn btn-trans-dark-gray" value="Subscribe">
                             </fieldset>
                             <p id="subscribe_message" class="text-left"></p>
                         </form>
